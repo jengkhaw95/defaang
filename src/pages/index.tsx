@@ -1,3 +1,4 @@
+import QuestionApprovalProgressBarSection from '@/components/QuestionApprovalProgressBarSection';
 import Head from 'next/head';
 import { CallToAction } from '../components/CallToAction';
 import { CallToAction2 } from '../components/CallToAction2';
@@ -16,6 +17,7 @@ export default function Home() {
 				<Header />
 				<main>
 					<Hero />
+					<QuestionApprovalProgressBarSection />
 					<CallToAction />
 					<Features />
 					<CallToAction2 />
